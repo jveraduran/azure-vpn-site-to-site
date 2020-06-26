@@ -1,9 +1,5 @@
  ## VPN Site to Site With definitive variables
 
-terraform {
-  backend "consul" {}
-}
-
 ## VPN Site to Site
 resource "azurerm_subnet" "gateway-subnet" {
   name                 = ""
